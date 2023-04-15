@@ -28,6 +28,8 @@ export default defineAppConfig({
     socials: {
       twitter: "DiveWithOleg",
       facebook: "vuewebdev",
+      github: "Divewitholeg",
+      youtube: "vuewebdev",
       linkedin: {
         icon: "uil:linkedin",
         label: "LinkedIn",
