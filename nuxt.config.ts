@@ -1,3 +1,6 @@
 export default defineNuxtConfig({
-  extends: '@nuxt-themes/alpine'
+  extends: '@nuxt-themes/alpine',
+  nitro: {
+    preset: 'node-server',
+  },
 })
