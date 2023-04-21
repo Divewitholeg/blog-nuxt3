@@ -1109,7 +1109,6 @@ export default {
             "type": "Lang | undefined",
             "schema": [
               "undefined",
-              "\"rel\"",
               "\"vue\"",
               "\"abap\"",
               "\"actionscript-3\"",
@@ -1235,6 +1234,7 @@ export default {
               "\"raku\"",
               "\"perl6\"",
               "\"razor\"",
+              "\"rel\"",
               "\"riscv\"",
               "\"rst\"",
               "\"ruby\"",
@@ -1362,7 +1362,6 @@ export default {
             "kind": "enum",
             "type": "Lang",
             "schema": [
-              "\"rel\"",
               "\"vue\"",
               "\"abap\"",
               "\"actionscript-3\"",
@@ -1488,6 +1487,7 @@ export default {
               "\"raku\"",
               "\"perl6\"",
               "\"razor\"",
+              "\"rel\"",
               "\"riscv\"",
               "\"rst\"",
               "\"ruby\"",
@@ -2622,6 +2622,25 @@ export default {
     "meta": {
       "props": [
         {
+          "name": "color",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "ComputedStyleProp<string | number | symbol> | undefined",
+          "schema": {
+            "kind": "enum",
+            "type": "ComputedStyleProp<string | number | symbol> | undefined",
+            "schema": [
+              "undefined",
+              "string",
+              "number",
+              "symbol",
+              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
+            ]
+          }
+        },
+        {
           "name": "href",
           "global": false,
           "description": "",
@@ -2655,25 +2674,6 @@ export default {
             ]
           },
           "default": "false"
-        },
-        {
-          "name": "color",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "ComputedStyleProp<string | number | symbol> | undefined",
-          "schema": {
-            "kind": "enum",
-            "type": "ComputedStyleProp<string | number | symbol> | undefined",
-            "schema": [
-              "undefined",
-              "string",
-              "number",
-              "symbol",
-              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
-            ]
-          }
         },
         {
           "name": "icon",
@@ -2746,6 +2746,21 @@ export default {
       "events": [],
       "exposed": [
         {
+          "name": "color",
+          "type": "ComputedStyleProp<string | number | symbol>",
+          "description": "",
+          "schema": {
+            "kind": "enum",
+            "type": "ComputedStyleProp<string | number | symbol>",
+            "schema": [
+              "string",
+              "number",
+              "symbol",
+              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
+            ]
+          }
+        },
+        {
           "name": "href",
           "type": "string",
           "description": "",
@@ -2761,21 +2776,6 @@ export default {
             "schema": [
               "false",
               "true"
-            ]
-          }
-        },
-        {
-          "name": "color",
-          "type": "ComputedStyleProp<string | number | symbol>",
-          "description": "",
-          "schema": {
-            "kind": "enum",
-            "type": "ComputedStyleProp<string | number | symbol>",
-            "schema": [
-              "string",
-              "number",
-              "symbol",
-              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
             ]
           }
         },
@@ -3090,10 +3090,6 @@ export default {
             "schema": [
               "undefined",
               "\"object\"",
-              "\"link\"",
-              "\"small\"",
-              "\"sub\"",
-              "\"sup\"",
               "\"style\"",
               "\"map\"",
               "\"title\"",
@@ -3102,6 +3098,7 @@ export default {
               "\"html\"",
               "\"ruby\"",
               "\"code\"",
+              "\"small\"",
               "\"label\"",
               "\"a\"",
               "\"abbr\"",
@@ -3157,6 +3154,7 @@ export default {
               "\"kbd\"",
               "\"legend\"",
               "\"li\"",
+              "\"link\"",
               "\"main\"",
               "\"mark\"",
               "\"menu\"",
@@ -3184,7 +3182,9 @@ export default {
               "\"source\"",
               "\"span\"",
               "\"strong\"",
+              "\"sub\"",
               "\"summary\"",
+              "\"sup\"",
               "\"table\"",
               "\"tbody\"",
               "\"td\"",
@@ -3260,10 +3260,6 @@ export default {
             "type": "keyof HTMLElementTagNameMap",
             "schema": [
               "\"object\"",
-              "\"link\"",
-              "\"small\"",
-              "\"sub\"",
-              "\"sup\"",
               "\"style\"",
               "\"map\"",
               "\"title\"",
@@ -3272,6 +3268,7 @@ export default {
               "\"html\"",
               "\"ruby\"",
               "\"code\"",
+              "\"small\"",
               "\"label\"",
               "\"a\"",
               "\"abbr\"",
@@ -3327,6 +3324,7 @@ export default {
               "\"kbd\"",
               "\"legend\"",
               "\"li\"",
+              "\"link\"",
               "\"main\"",
               "\"mark\"",
               "\"menu\"",
@@ -3354,7 +3352,9 @@ export default {
               "\"source\"",
               "\"span\"",
               "\"strong\"",
+              "\"sub\"",
               "\"summary\"",
+              "\"sup\"",
               "\"table\"",
               "\"tbody\"",
               "\"td\"",
@@ -3451,23 +3451,6 @@ export default {
     "meta": {
       "props": [
         {
-          "name": "right",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string | undefined",
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          },
-          "default": "\"auto\""
-        },
-        {
           "name": "height",
           "global": false,
           "description": "",
@@ -3483,6 +3466,23 @@ export default {
             ]
           },
           "default": "\"10rem\""
+        },
+        {
+          "name": "right",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string | undefined",
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
+            ]
+          },
+          "default": "\"auto\""
         },
         {
           "name": "width",
@@ -3597,13 +3597,13 @@ export default {
       "events": [],
       "exposed": [
         {
-          "name": "right",
+          "name": "height",
           "type": "string",
           "description": "",
           "schema": "string"
         },
         {
-          "name": "height",
+          "name": "right",
           "type": "string",
           "description": "",
           "schema": "string"
