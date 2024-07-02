@@ -156,7 +156,7 @@ const inlineAppConfig = {};
 
 const appConfig = defuFn(appConfig0, appConfig1, appConfig2, appConfig3, inlineAppConfig);
 
-const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"envPrefix":"NUXT_","routeRules":{"/__nuxt_error":{"cache":false},"/_nuxt/**":{"headers":{"cache-control":"public, max-age=31536000, immutable"}}}},"public":{"FORMSPREE_URL":"","studio":{"apiURL":"https://api.nuxt.studio"},"content":{"locales":[],"defaultLocale":"","integrity":1719940016044,"experimental":{"stripQueryParameters":false,"clientDB":false},"api":{"baseURL":"/api/_content"},"navigation":{"fields":["navTitle","layout"]},"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"highlight":{"theme":{"default":"github-light","dark":"github-dark"},"preload":["json","js","ts","html","css","vue","diff","shell","markdown","yaml","bash","ini","c","cpp"]},"wsUrl":"","documentDriven":{"page":true,"navigation":true,"surround":true,"globals":{},"layoutFallbacks":["theme"],"injectPage":true},"host":"","trailingSlash":false,"anchorLinks":{"depth":4,"exclude":[1]}}},"pinceau":{"studio":false,"outputDir":"/home/holydiver/Documents/FIE/nuxt/blog/.nuxt/pinceau/"},"studio":{},"content":{"cacheVersion":2,"cacheIntegrity":"pbWLwQHnAo","transformers":[],"base":"","api":{"baseURL":"/api/_content"},"watch":{"ws":{"port":{"port":4000,"portRange":[4000,4040]},"hostname":"localhost","showURL":false}},"sources":{},"ignores":["\\.","-"],"locales":[],"defaultLocale":"","highlight":{"theme":{"default":"github-light","dark":"github-dark"},"preload":["json","js","ts","html","css","vue","diff","shell","markdown","yaml","bash","ini","c","cpp"]},"markdown":{"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"anchorLinks":{"depth":4,"exclude":[1]},"remarkPlugins":{},"rehypePlugins":{}},"yaml":{},"csv":{"delimeter":",","json":true},"navigation":{"fields":["navTitle","layout"]},"documentDriven":true,"experimental":{"clientDB":false,"stripQueryParameters":false}},"appConfigSchema":{"properties":{"id":"#appConfig","properties":{"nuxtIcon":{"title":"Nuxt Icon","description":"Configure the defaults of Nuxt Icon","id":"#appConfig/nuxtIcon","properties":{"size":{"title":"Icon Size","description":"Set the default icon size. Set to false to disable the sizing of icon in style.","tags":["@studioIcon material-symbols:format-size-rounded"],"tsType":"string | false","id":"#appConfig/nuxtIcon/size","default":"1em","type":"string"},"class":{"title":"CSS Class","description":"Set the default CSS class","tags":["@studioIcon material-symbols:css"],"id":"#appConfig/nuxtIcon/class","default":"","type":"string"},"aliases":{"title":"Icon aliases","description":"Define Icon aliases to update them easily without code changes.","tags":["@studioIcon material-symbols:star-rounded","@studioInputObjectValueType icon"],"tsType":"{ [alias: string]: string }","id":"#appConfig/nuxtIcon/aliases","default":{},"type":"object"}},"type":"object","default":{"size":"1em","class":"","aliases":{}}},"prose":{"title":"Prose configuration from Nuxt Typography","description":"","tags":["@studioIcon material-symbols:short-text-rounded","@studioInput icon"],"id":"#appConfig/prose","properties":{"copyButton":{"title":"Copy button (used in code blocks)","description":"","tags":["@studioIcon material-symbols:content-copy"],"id":"#appConfig/prose/copyButton","properties":{"iconCopy":{"title":"Icon displayed to copy","description":"","tags":[],"id":"#appConfig/prose/copyButton/iconCopy","default":"ph:copy","type":"string"},"iconCopied":{"title":"Icon displayed when copied","description":"","tags":[],"id":"#appConfig/prose/copyButton/iconCopied","default":"ph:check","type":"string"}},"type":"object","default":{"iconCopy":"ph:copy","iconCopied":"ph:check"}},"headings":{"title":"Default configuration for all headings (h1, h2, h3, h4, h5 and h6)","description":"","tags":["@studioIcon material-symbols:title"],"id":"#appConfig/prose/headings","properties":{"icon":{"title":"Default icon for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/headings/icon","default":"ph:link","type":"string"}},"type":"object","default":{"icon":"ph:link"}},"h1":{"title":"First heading configuration","description":"","tags":["@studioIcon material-symbols:format-h1"],"id":"#appConfig/prose/h1","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h1/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h2":{"title":"Second heading configuration","description":"","tags":["@studioIcon material-symbols:format-h2"],"id":"#appConfig/prose/h2","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h2/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h3":{"title":"Third heading configuration","description":"","tags":["@studioIcon material-symbols:format-h3"],"id":"#appConfig/prose/h3","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h3/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h4":{"title":"Fourth heading configuration","description":"","tags":["@studioIcon material-symbols:format-h4"],"id":"#appConfig/prose/h4","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h4/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h5":{"title":"Fifth heading configuration","description":"","tags":["@studioIcon material-symbols:format-h5"],"id":"#appConfig/prose/h5","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h5/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h6":{"title":"Sixth heading configuration","description":"","tags":["@studioIcon material-symbols:format-h6"],"id":"#appConfig/prose/h6","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h6/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}}},"type":"object","default":{"copyButton":{"iconCopy":"ph:copy","iconCopied":"ph:check"},"headings":{"icon":"ph:link"},"h1":{"icon":""},"h2":{"icon":""},"h3":{"icon":""},"h4":{"icon":""},"h5":{"icon":""},"h6":{"icon":""}}},"alpine":{"title":"Alpine theme configuration.","description":"","tags":["@studio-icon carbon:blog"],"id":"#appConfig/alpine","properties":{"title":{"title":"Website title, used as header default title and meta title.","description":"","tags":["@studio-icon material-symbols:title"],"id":"#appConfig/alpine/title","default":"Alpine","type":"string"},"description":{"title":"Website description, used for meta description.","description":"","tags":["@studio-icon material-symbols:description"],"id":"#appConfig/alpine/description","default":"The minimalist blog theme","type":"string"},"image":{"title":"Cover image.","description":"","tags":["@example '/cover.jpg'","@studio-icon dashicons:cover-image"],"id":"#appConfig/alpine/image","properties":{"src":{"type":"string","id":"#appConfig/alpine/image/src","default":"/social-card-preview.png"},"alt":{"type":"string","id":"#appConfig/alpine/image/alt","default":"An image showcasing my project."},"width":{"type":"number","id":"#appConfig/alpine/image/width","default":400},"height":{"type":"number","id":"#appConfig/alpine/image/height","default":300}},"type":"object","default":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300}},"header":{"title":"Header configuration.","description":"","tags":["@studio-icon fluent:document-header-24-regular"],"id":"#appConfig/alpine/header","properties":{"position":{"title":"Header position.","description":"","tags":[],"tsType":"'left'|'center'|'right'","id":"#appConfig/alpine/header/position","default":"right","type":"string"},"logo":{"title":"Header logo.","description":"","tags":["@studio-icon dashicons:cover-image"],"id":"#appConfig/alpine/header/logo","properties":{"path":{"title":"Path of the logo.","description":"","tags":[],"id":"#appConfig/alpine/header/logo/path","default":"/logo.svg","type":"string"},"pathDark":{"title":"Path of the logo in dark mode.","description":"Leave it empty if you want to use the same logo.","tags":[],"id":"#appConfig/alpine/header/logo/pathDark","default":"/logo-dark.svg","type":"string"},"alt":{"title":"Alt description for the image.","description":"","tags":[],"id":"#appConfig/alpine/header/logo/alt","default":"Alpine theme logo","type":"string"}},"type":"object","default":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}}},"type":"object","default":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}}},"footer":{"title":"Footer configuration.","description":"","tags":["@studio-icon fluent:document-footer-24-regular"],"id":"#appConfig/alpine/footer","properties":{"credits":{"title":"Footer credits.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits","properties":{"enabled":{"title":"Toggle the footer.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits/enabled","default":true,"type":"boolean"},"text":{"title":"Text to be displayed.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits/text","default":"Alpine","type":"string"},"repository":{"title":"GitHub repository link.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits/repository","default":"https://www.github.com/nuxt-themes/alpine","type":"string"}},"type":"object","default":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"}},"navigation":{"title":"Toggle the navigation.","description":"","tags":[],"id":"#appConfig/alpine/footer/navigation","default":true,"type":"boolean"},"alignment":{"title":"Footer position.","description":"","tags":[],"tsType":"'left'|'center'|'right'","id":"#appConfig/alpine/footer/alignment","default":"center","type":"string"},"message":{"title":"Footer message.","description":"Leave it empty to disable.","tags":[],"id":"#appConfig/alpine/footer/message","default":"Follow me on","type":"string"}},"type":"object","default":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"}},"socials":{"title":"Icons to be added to Social Icons in footer.","description":"","tags":["@studio-icon material-symbols:add-link"],"id":"#appConfig/alpine/socials","properties":{"twitter":{"title":"Twitter handle","description":"","tags":["@example 'nuxt_js'","@studio-icon simple-icons:twitter"],"id":"#appConfig/alpine/socials/twitter","default":"","type":"string"},"instagram":{"title":"Instagram handle","description":"","tags":["@example 'wearenuxt'","@studio-icon simple-icons:instagram"],"id":"#appConfig/alpine/socials/instagram","default":"","type":"string"},"github":{"title":"GitHub path","description":"","tags":["@example 'nuxt-themes/alpine'","@studio-icon simple-icons:github"],"id":"#appConfig/alpine/socials/github","default":"","type":"string"},"facebook":{"title":"GitHub path","description":"","tags":["@example 'nuxt'","@studio-icon simple-icons:facebook"],"id":"#appConfig/alpine/socials/facebook","default":"","type":"string"},"medium":{"title":"Medium handle","description":"","tags":["@example 'nuxt'","@studio-icon simple-icons:medium"],"id":"#appConfig/alpine/socials/medium","default":"","type":"string"},"youtube":{"title":"Youtube handle","description":"","tags":["@example '@nuxtlabs'","@studio-icon simple-icons:youtube"],"id":"#appConfig/alpine/socials/youtube","default":"","type":"string"}},"type":"object","default":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""}},"form":{"title":"Contact form configuration.","description":"","tags":["@studio-icon ion:ios-paperplane"],"id":"#appConfig/alpine/form","properties":{"successMessage":{"title":"Success message.","description":"","tags":[],"id":"#appConfig/alpine/form/successMessage","default":"Message sent. Thank you!","type":"string"}},"type":"object","default":{"successMessage":"Message sent. Thank you!"}}},"type":"object","default":{"title":"Alpine","description":"The minimalist blog theme","image":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300},"header":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}},"footer":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"},"socials":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""},"form":{"successMessage":"Message sent. Thank you!"}}}},"type":"object","default":{"nuxtIcon":{"size":"1em","class":"","aliases":{}},"prose":{"copyButton":{"iconCopy":"ph:copy","iconCopied":"ph:check"},"headings":{"icon":"ph:link"},"h1":{"icon":""},"h2":{"icon":""},"h3":{"icon":""},"h4":{"icon":""},"h5":{"icon":""},"h6":{"icon":""}},"alpine":{"title":"Alpine","description":"The minimalist blog theme","image":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300},"header":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}},"footer":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"},"socials":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""},"form":{"successMessage":"Message sent. Thank you!"}}}},"default":{"nuxtIcon":{"size":"1em","class":"","aliases":{}},"prose":{"copyButton":{"iconCopy":"ph:copy","iconCopied":"ph:check"},"headings":{"icon":"ph:link"},"h1":{"icon":""},"h2":{"icon":""},"h3":{"icon":""},"h4":{"icon":""},"h5":{"icon":""},"h6":{"icon":""}},"alpine":{"title":"Alpine","description":"The minimalist blog theme","image":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300},"header":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}},"footer":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"},"socials":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""},"form":{"successMessage":"Message sent. Thank you!"}}}}};
+const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"envPrefix":"NUXT_","routeRules":{"/__nuxt_error":{"cache":false},"/_nuxt/**":{"headers":{"cache-control":"public, max-age=31536000, immutable"}}}},"public":{"FORMSPREE_URL":"","studio":{"apiURL":"https://api.nuxt.studio"},"content":{"locales":[],"defaultLocale":"","integrity":1719941353437,"experimental":{"stripQueryParameters":false,"clientDB":false},"api":{"baseURL":"/api/_content"},"navigation":{"fields":["navTitle","layout"]},"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"highlight":{"theme":{"default":"github-light","dark":"github-dark"},"preload":["json","js","ts","html","css","vue","diff","shell","markdown","yaml","bash","ini","c","cpp"]},"wsUrl":"","documentDriven":{"page":true,"navigation":true,"surround":true,"globals":{},"layoutFallbacks":["theme"],"injectPage":true},"host":"","trailingSlash":false,"anchorLinks":{"depth":4,"exclude":[1]}}},"pinceau":{"studio":false,"outputDir":"/home/holydiver/Documents/FIE/nuxt/blog/.nuxt/pinceau/"},"studio":{},"content":{"cacheVersion":2,"cacheIntegrity":"pbWLwQHnAo","transformers":[],"base":"","api":{"baseURL":"/api/_content"},"watch":{"ws":{"port":{"port":4000,"portRange":[4000,4040]},"hostname":"localhost","showURL":false}},"sources":{},"ignores":["\\.","-"],"locales":[],"defaultLocale":"","highlight":{"theme":{"default":"github-light","dark":"github-dark"},"preload":["json","js","ts","html","css","vue","diff","shell","markdown","yaml","bash","ini","c","cpp"]},"markdown":{"tags":{"p":"prose-p","a":"prose-a","blockquote":"prose-blockquote","code-inline":"prose-code-inline","code":"prose-code","em":"prose-em","h1":"prose-h1","h2":"prose-h2","h3":"prose-h3","h4":"prose-h4","h5":"prose-h5","h6":"prose-h6","hr":"prose-hr","img":"prose-img","ul":"prose-ul","ol":"prose-ol","li":"prose-li","strong":"prose-strong","table":"prose-table","thead":"prose-thead","tbody":"prose-tbody","td":"prose-td","th":"prose-th","tr":"prose-tr"},"anchorLinks":{"depth":4,"exclude":[1]},"remarkPlugins":{},"rehypePlugins":{}},"yaml":{},"csv":{"delimeter":",","json":true},"navigation":{"fields":["navTitle","layout"]},"documentDriven":true,"experimental":{"clientDB":false,"stripQueryParameters":false}},"appConfigSchema":{"properties":{"id":"#appConfig","properties":{"nuxtIcon":{"title":"Nuxt Icon","description":"Configure the defaults of Nuxt Icon","id":"#appConfig/nuxtIcon","properties":{"size":{"title":"Icon Size","description":"Set the default icon size. Set to false to disable the sizing of icon in style.","tags":["@studioIcon material-symbols:format-size-rounded"],"tsType":"string | false","id":"#appConfig/nuxtIcon/size","default":"1em","type":"string"},"class":{"title":"CSS Class","description":"Set the default CSS class","tags":["@studioIcon material-symbols:css"],"id":"#appConfig/nuxtIcon/class","default":"","type":"string"},"aliases":{"title":"Icon aliases","description":"Define Icon aliases to update them easily without code changes.","tags":["@studioIcon material-symbols:star-rounded","@studioInputObjectValueType icon"],"tsType":"{ [alias: string]: string }","id":"#appConfig/nuxtIcon/aliases","default":{},"type":"object"}},"type":"object","default":{"size":"1em","class":"","aliases":{}}},"prose":{"title":"Prose configuration from Nuxt Typography","description":"","tags":["@studioIcon material-symbols:short-text-rounded","@studioInput icon"],"id":"#appConfig/prose","properties":{"copyButton":{"title":"Copy button (used in code blocks)","description":"","tags":["@studioIcon material-symbols:content-copy"],"id":"#appConfig/prose/copyButton","properties":{"iconCopy":{"title":"Icon displayed to copy","description":"","tags":[],"id":"#appConfig/prose/copyButton/iconCopy","default":"ph:copy","type":"string"},"iconCopied":{"title":"Icon displayed when copied","description":"","tags":[],"id":"#appConfig/prose/copyButton/iconCopied","default":"ph:check","type":"string"}},"type":"object","default":{"iconCopy":"ph:copy","iconCopied":"ph:check"}},"headings":{"title":"Default configuration for all headings (h1, h2, h3, h4, h5 and h6)","description":"","tags":["@studioIcon material-symbols:title"],"id":"#appConfig/prose/headings","properties":{"icon":{"title":"Default icon for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/headings/icon","default":"ph:link","type":"string"}},"type":"object","default":{"icon":"ph:link"}},"h1":{"title":"First heading configuration","description":"","tags":["@studioIcon material-symbols:format-h1"],"id":"#appConfig/prose/h1","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h1/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h2":{"title":"Second heading configuration","description":"","tags":["@studioIcon material-symbols:format-h2"],"id":"#appConfig/prose/h2","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h2/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h3":{"title":"Third heading configuration","description":"","tags":["@studioIcon material-symbols:format-h3"],"id":"#appConfig/prose/h3","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h3/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h4":{"title":"Fourth heading configuration","description":"","tags":["@studioIcon material-symbols:format-h4"],"id":"#appConfig/prose/h4","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h4/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h5":{"title":"Fifth heading configuration","description":"","tags":["@studioIcon material-symbols:format-h5"],"id":"#appConfig/prose/h5","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h5/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}},"h6":{"title":"Sixth heading configuration","description":"","tags":["@studioIcon material-symbols:format-h6"],"id":"#appConfig/prose/h6","properties":{"icon":{"title":"Icon displayed for anchor link on hover","description":"","tags":[],"tsType":"string|false","id":"#appConfig/prose/h6/icon","default":"","type":"string"}},"type":"object","default":{"icon":""}}},"type":"object","default":{"copyButton":{"iconCopy":"ph:copy","iconCopied":"ph:check"},"headings":{"icon":"ph:link"},"h1":{"icon":""},"h2":{"icon":""},"h3":{"icon":""},"h4":{"icon":""},"h5":{"icon":""},"h6":{"icon":""}}},"alpine":{"title":"Alpine theme configuration.","description":"","tags":["@studio-icon carbon:blog"],"id":"#appConfig/alpine","properties":{"title":{"title":"Website title, used as header default title and meta title.","description":"","tags":["@studio-icon material-symbols:title"],"id":"#appConfig/alpine/title","default":"Alpine","type":"string"},"description":{"title":"Website description, used for meta description.","description":"","tags":["@studio-icon material-symbols:description"],"id":"#appConfig/alpine/description","default":"The minimalist blog theme","type":"string"},"image":{"title":"Cover image.","description":"","tags":["@example '/cover.jpg'","@studio-icon dashicons:cover-image"],"id":"#appConfig/alpine/image","properties":{"src":{"type":"string","id":"#appConfig/alpine/image/src","default":"/social-card-preview.png"},"alt":{"type":"string","id":"#appConfig/alpine/image/alt","default":"An image showcasing my project."},"width":{"type":"number","id":"#appConfig/alpine/image/width","default":400},"height":{"type":"number","id":"#appConfig/alpine/image/height","default":300}},"type":"object","default":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300}},"header":{"title":"Header configuration.","description":"","tags":["@studio-icon fluent:document-header-24-regular"],"id":"#appConfig/alpine/header","properties":{"position":{"title":"Header position.","description":"","tags":[],"tsType":"'left'|'center'|'right'","id":"#appConfig/alpine/header/position","default":"right","type":"string"},"logo":{"title":"Header logo.","description":"","tags":["@studio-icon dashicons:cover-image"],"id":"#appConfig/alpine/header/logo","properties":{"path":{"title":"Path of the logo.","description":"","tags":[],"id":"#appConfig/alpine/header/logo/path","default":"/logo.svg","type":"string"},"pathDark":{"title":"Path of the logo in dark mode.","description":"Leave it empty if you want to use the same logo.","tags":[],"id":"#appConfig/alpine/header/logo/pathDark","default":"/logo-dark.svg","type":"string"},"alt":{"title":"Alt description for the image.","description":"","tags":[],"id":"#appConfig/alpine/header/logo/alt","default":"Alpine theme logo","type":"string"}},"type":"object","default":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}}},"type":"object","default":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}}},"footer":{"title":"Footer configuration.","description":"","tags":["@studio-icon fluent:document-footer-24-regular"],"id":"#appConfig/alpine/footer","properties":{"credits":{"title":"Footer credits.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits","properties":{"enabled":{"title":"Toggle the footer.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits/enabled","default":true,"type":"boolean"},"text":{"title":"Text to be displayed.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits/text","default":"Alpine","type":"string"},"repository":{"title":"GitHub repository link.","description":"","tags":[],"id":"#appConfig/alpine/footer/credits/repository","default":"https://www.github.com/nuxt-themes/alpine","type":"string"}},"type":"object","default":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"}},"navigation":{"title":"Toggle the navigation.","description":"","tags":[],"id":"#appConfig/alpine/footer/navigation","default":true,"type":"boolean"},"alignment":{"title":"Footer position.","description":"","tags":[],"tsType":"'left'|'center'|'right'","id":"#appConfig/alpine/footer/alignment","default":"center","type":"string"},"message":{"title":"Footer message.","description":"Leave it empty to disable.","tags":[],"id":"#appConfig/alpine/footer/message","default":"Follow me on","type":"string"}},"type":"object","default":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"}},"socials":{"title":"Icons to be added to Social Icons in footer.","description":"","tags":["@studio-icon material-symbols:add-link"],"id":"#appConfig/alpine/socials","properties":{"twitter":{"title":"Twitter handle","description":"","tags":["@example 'nuxt_js'","@studio-icon simple-icons:twitter"],"id":"#appConfig/alpine/socials/twitter","default":"","type":"string"},"instagram":{"title":"Instagram handle","description":"","tags":["@example 'wearenuxt'","@studio-icon simple-icons:instagram"],"id":"#appConfig/alpine/socials/instagram","default":"","type":"string"},"github":{"title":"GitHub path","description":"","tags":["@example 'nuxt-themes/alpine'","@studio-icon simple-icons:github"],"id":"#appConfig/alpine/socials/github","default":"","type":"string"},"facebook":{"title":"GitHub path","description":"","tags":["@example 'nuxt'","@studio-icon simple-icons:facebook"],"id":"#appConfig/alpine/socials/facebook","default":"","type":"string"},"medium":{"title":"Medium handle","description":"","tags":["@example 'nuxt'","@studio-icon simple-icons:medium"],"id":"#appConfig/alpine/socials/medium","default":"","type":"string"},"youtube":{"title":"Youtube handle","description":"","tags":["@example '@nuxtlabs'","@studio-icon simple-icons:youtube"],"id":"#appConfig/alpine/socials/youtube","default":"","type":"string"}},"type":"object","default":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""}},"form":{"title":"Contact form configuration.","description":"","tags":["@studio-icon ion:ios-paperplane"],"id":"#appConfig/alpine/form","properties":{"successMessage":{"title":"Success message.","description":"","tags":[],"id":"#appConfig/alpine/form/successMessage","default":"Message sent. Thank you!","type":"string"}},"type":"object","default":{"successMessage":"Message sent. Thank you!"}}},"type":"object","default":{"title":"Alpine","description":"The minimalist blog theme","image":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300},"header":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}},"footer":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"},"socials":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""},"form":{"successMessage":"Message sent. Thank you!"}}}},"type":"object","default":{"nuxtIcon":{"size":"1em","class":"","aliases":{}},"prose":{"copyButton":{"iconCopy":"ph:copy","iconCopied":"ph:check"},"headings":{"icon":"ph:link"},"h1":{"icon":""},"h2":{"icon":""},"h3":{"icon":""},"h4":{"icon":""},"h5":{"icon":""},"h6":{"icon":""}},"alpine":{"title":"Alpine","description":"The minimalist blog theme","image":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300},"header":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}},"footer":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"},"socials":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""},"form":{"successMessage":"Message sent. Thank you!"}}}},"default":{"nuxtIcon":{"size":"1em","class":"","aliases":{}},"prose":{"copyButton":{"iconCopy":"ph:copy","iconCopied":"ph:check"},"headings":{"icon":"ph:link"},"h1":{"icon":""},"h2":{"icon":""},"h3":{"icon":""},"h4":{"icon":""},"h5":{"icon":""},"h6":{"icon":""}},"alpine":{"title":"Alpine","description":"The minimalist blog theme","image":{"src":"/social-card-preview.png","alt":"An image showcasing my project.","width":400,"height":300},"header":{"position":"right","logo":{"path":"/logo.svg","pathDark":"/logo-dark.svg","alt":"Alpine theme logo"}},"footer":{"credits":{"enabled":true,"text":"Alpine","repository":"https://www.github.com/nuxt-themes/alpine"},"navigation":true,"alignment":"center","message":"Follow me on"},"socials":{"twitter":"","instagram":"","github":"","facebook":"","medium":"","youtube":""},"form":{"successMessage":"Message sent. Thank you!"}}}}};
 const ENV_PREFIX = "NITRO_";
 const ENV_PREFIX_ALT = _runtimeConfig.nitro.envPrefix ?? process.env.NITRO_ENV_PREFIX ?? "_";
 overrideConfig(_runtimeConfig);
@@ -3238,16 +3238,31 @@ const components = {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "ComputedStyleProp<string | number | symbol> | undefined",
+          "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\"> | undefined",
           "schema": {
             "kind": "enum",
-            "type": "ComputedStyleProp<string | number | symbol> | undefined",
+            "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\"> | undefined",
             "schema": [
               "undefined",
-              "string",
-              "number",
-              "symbol",
-              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
+              "\"ruby\"",
+              "\"primary\"",
+              "\"white\"",
+              "\"black\"",
+              "\"gray\"",
+              "\"green\"",
+              "\"yellow\"",
+              "\"orange\"",
+              "\"red\"",
+              "\"pear\"",
+              "\"teal\"",
+              "\"lightblue\"",
+              "\"blue\"",
+              "\"indigoblue\"",
+              "\"royalblue\"",
+              "\"purple\"",
+              "\"pink\"",
+              "\"secondary\"",
+              "{ md?: \"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\" | undefined; ... 10 more ...; portrait?: \"ruby\" | ... 17 more ... | undefined; }"
             ]
           }
         },
@@ -3309,17 +3324,17 @@ const components = {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; } | undefined",
+          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; } | undefined",
+            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; } | undefined",
             "schema": [
               "undefined",
               "\"small\"",
               "\"medium\"",
               "\"large\"",
               "\"giant\"",
-              "{ dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }"
+              "{ md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | ... 3 more ... | undefined; ... 7 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }"
             ]
           }
         },
@@ -3329,15 +3344,15 @@ const components = {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
             "schema": [
               "undefined",
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -3358,16 +3373,31 @@ const components = {
       "exposed": [
         {
           "name": "color",
-          "type": "ComputedStyleProp<string | number | symbol>",
+          "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\">",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "ComputedStyleProp<string | number | symbol>",
+            "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\">",
             "schema": [
-              "string",
-              "number",
-              "symbol",
-              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
+              "\"ruby\"",
+              "\"primary\"",
+              "\"white\"",
+              "\"black\"",
+              "\"gray\"",
+              "\"green\"",
+              "\"yellow\"",
+              "\"orange\"",
+              "\"red\"",
+              "\"pear\"",
+              "\"teal\"",
+              "\"lightblue\"",
+              "\"blue\"",
+              "\"indigoblue\"",
+              "\"royalblue\"",
+              "\"purple\"",
+              "\"pink\"",
+              "\"secondary\"",
+              "{ md?: \"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\" | undefined; ... 10 more ...; portrait?: \"ruby\" | ... 17 more ... | undefined; }"
             ]
           }
         },
@@ -3398,31 +3428,31 @@ const components = {
         },
         {
           "name": "size",
-          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }",
+          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }",
+            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }",
             "schema": [
               "\"small\"",
               "\"medium\"",
               "\"large\"",
               "\"giant\"",
-              "{ dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }"
+              "{ md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | ... 3 more ... | undefined; ... 7 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }"
             ]
           }
         },
         {
           "name": "transparent",
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
             "schema": [
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -3676,15 +3706,15 @@ const components = {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
             "schema": [
               "undefined",
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         },
@@ -3821,15 +3851,15 @@ const components = {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
             "schema": [
               "undefined",
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -3850,15 +3880,15 @@ const components = {
       "exposed": [
         {
           "name": "padded",
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
             "schema": [
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         },
@@ -3986,15 +4016,15 @@ const components = {
         },
         {
           "name": "fluid",
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
             "schema": [
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -4113,6 +4143,23 @@ const components = {
           "default": "\"10rem\""
         },
         {
+          "name": "left",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string | undefined",
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
+            ]
+          },
+          "default": "\"auto\""
+        },
+        {
           "name": "zIndex",
           "global": false,
           "description": "",
@@ -4145,23 +4192,6 @@ const components = {
             ]
           },
           "default": "\"0\""
-        },
-        {
-          "name": "left",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string | undefined",
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          },
-          "default": "\"auto\""
         },
         {
           "name": "blur",
@@ -4226,6 +4256,12 @@ const components = {
           "schema": "string"
         },
         {
+          "name": "left",
+          "type": "string",
+          "description": "",
+          "schema": "string"
+        },
+        {
           "name": "zIndex",
           "type": "string",
           "description": "",
@@ -4233,12 +4269,6 @@ const components = {
         },
         {
           "name": "top",
-          "type": "string",
-          "description": "",
-          "schema": "string"
-        },
-        {
-          "name": "left",
           "type": "string",
           "description": "",
           "schema": "string"
@@ -4983,24 +5013,7 @@ const components = {
     "meta": {
       "props": [
         {
-          "name": "video",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string | undefined",
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          },
-          "default": "\"\""
-        },
-        {
-          "name": "cta",
+          "name": "secondary",
           "global": false,
           "description": "",
           "tags": [],
@@ -5023,7 +5036,24 @@ const components = {
           "default": "[]"
         },
         {
-          "name": "secondary",
+          "name": "video",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string | undefined",
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
+            ]
+          },
+          "default": "\"\""
+        },
+        {
+          "name": "cta",
           "global": false,
           "description": "",
           "tags": [],
@@ -5074,13 +5104,7 @@ const components = {
       "events": [],
       "exposed": [
         {
-          "name": "video",
-          "type": "string",
-          "description": "",
-          "schema": "string"
-        },
-        {
-          "name": "cta",
+          "name": "secondary",
           "type": "string[]",
           "description": "",
           "schema": {
@@ -5092,7 +5116,13 @@ const components = {
           }
         },
         {
-          "name": "secondary",
+          "name": "video",
+          "type": "string",
+          "description": "",
+          "schema": "string"
+        },
+        {
+          "name": "cta",
           "type": "string[]",
           "description": "",
           "schema": {
@@ -12193,7 +12223,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _jVmoNB, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _jVmoNB, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _jVmoNB, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1719940016044.json', handler: _LFS6h2, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1719941353437.json', handler: _LFS6h2, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _Taz46P, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _Taz46P, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _Taz46P, lazy: false, middleware: false, method: "get" },

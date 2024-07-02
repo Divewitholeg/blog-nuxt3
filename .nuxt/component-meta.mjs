@@ -2627,16 +2627,31 @@ export default {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "ComputedStyleProp<string | number | symbol> | undefined",
+          "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\"> | undefined",
           "schema": {
             "kind": "enum",
-            "type": "ComputedStyleProp<string | number | symbol> | undefined",
+            "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\"> | undefined",
             "schema": [
               "undefined",
-              "string",
-              "number",
-              "symbol",
-              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
+              "\"ruby\"",
+              "\"primary\"",
+              "\"white\"",
+              "\"black\"",
+              "\"gray\"",
+              "\"green\"",
+              "\"yellow\"",
+              "\"orange\"",
+              "\"red\"",
+              "\"pear\"",
+              "\"teal\"",
+              "\"lightblue\"",
+              "\"blue\"",
+              "\"indigoblue\"",
+              "\"royalblue\"",
+              "\"purple\"",
+              "\"pink\"",
+              "\"secondary\"",
+              "{ md?: \"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\" | undefined; ... 10 more ...; portrait?: \"ruby\" | ... 17 more ... | undefined; }"
             ]
           }
         },
@@ -2698,17 +2713,17 @@ export default {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; } | undefined",
+          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; } | undefined",
+            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; } | undefined",
             "schema": [
               "undefined",
               "\"small\"",
               "\"medium\"",
               "\"large\"",
               "\"giant\"",
-              "{ dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }"
+              "{ md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | ... 3 more ... | undefined; ... 7 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }"
             ]
           }
         },
@@ -2718,15 +2733,15 @@ export default {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
             "schema": [
               "undefined",
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -2747,16 +2762,31 @@ export default {
       "exposed": [
         {
           "name": "color",
-          "type": "ComputedStyleProp<string | number | symbol>",
+          "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\">",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "ComputedStyleProp<string | number | symbol>",
+            "type": "ComputedStyleProp<\"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\">",
             "schema": [
-              "string",
-              "number",
-              "symbol",
-              "{ dark?: string | number | symbol | undefined; light?: string | number | symbol | undefined; initial?: string | number | symbol | undefined; }"
+              "\"ruby\"",
+              "\"primary\"",
+              "\"white\"",
+              "\"black\"",
+              "\"gray\"",
+              "\"green\"",
+              "\"yellow\"",
+              "\"orange\"",
+              "\"red\"",
+              "\"pear\"",
+              "\"teal\"",
+              "\"lightblue\"",
+              "\"blue\"",
+              "\"indigoblue\"",
+              "\"royalblue\"",
+              "\"purple\"",
+              "\"pink\"",
+              "\"secondary\"",
+              "{ md?: \"ruby\" | \"primary\" | \"white\" | \"black\" | \"gray\" | \"green\" | \"yellow\" | \"orange\" | \"red\" | \"pear\" | \"teal\" | \"lightblue\" | \"blue\" | \"indigoblue\" | \"royalblue\" | \"purple\" | \"pink\" | \"secondary\" | undefined; ... 10 more ...; portrait?: \"ruby\" | ... 17 more ... | undefined; }"
             ]
           }
         },
@@ -2787,31 +2817,31 @@ export default {
         },
         {
           "name": "size",
-          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }",
+          "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }",
+            "type": "\"small\" | \"medium\" | \"large\" | \"giant\" | { md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; ... 8 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }",
             "schema": [
               "\"small\"",
               "\"medium\"",
               "\"large\"",
               "\"giant\"",
-              "{ dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; }"
+              "{ md?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; dark?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; light?: \"small\" | \"medium\" | \"large\" | \"giant\" | undefined; initial?: \"small\" | ... 3 more ... | undefined; ... 7 more ...; portrait?: \"small\" | ... 3 more ... | undefined; }"
             ]
           }
         },
         {
           "name": "transparent",
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
             "schema": [
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -3065,15 +3095,15 @@ export default {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
             "schema": [
               "undefined",
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         },
@@ -3210,15 +3240,15 @@ export default {
           "description": "",
           "tags": [],
           "required": false,
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; } | undefined",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; } | undefined",
             "schema": [
               "undefined",
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -3239,15 +3269,15 @@ export default {
       "exposed": [
         {
           "name": "padded",
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
             "schema": [
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         },
@@ -3375,15 +3405,15 @@ export default {
         },
         {
           "name": "fluid",
-          "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+          "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
           "description": "",
           "schema": {
             "kind": "enum",
-            "type": "boolean | { dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }",
+            "type": "boolean | { md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }",
             "schema": [
               "false",
               "true",
-              "{ dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; }"
+              "{ md?: boolean | undefined; dark?: boolean | undefined; light?: boolean | undefined; initial?: boolean | undefined; xs?: boolean | undefined; sm?: boolean | undefined; lg?: boolean | undefined; ... 4 more ...; portrait?: boolean | undefined; }"
             ]
           }
         }
@@ -3502,6 +3532,23 @@ export default {
           "default": "\"10rem\""
         },
         {
+          "name": "left",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string | undefined",
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
+            ]
+          },
+          "default": "\"auto\""
+        },
+        {
           "name": "zIndex",
           "global": false,
           "description": "",
@@ -3534,23 +3581,6 @@ export default {
             ]
           },
           "default": "\"0\""
-        },
-        {
-          "name": "left",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string | undefined",
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          },
-          "default": "\"auto\""
         },
         {
           "name": "blur",
@@ -3615,6 +3645,12 @@ export default {
           "schema": "string"
         },
         {
+          "name": "left",
+          "type": "string",
+          "description": "",
+          "schema": "string"
+        },
+        {
           "name": "zIndex",
           "type": "string",
           "description": "",
@@ -3622,12 +3658,6 @@ export default {
         },
         {
           "name": "top",
-          "type": "string",
-          "description": "",
-          "schema": "string"
-        },
-        {
-          "name": "left",
           "type": "string",
           "description": "",
           "schema": "string"
@@ -4372,24 +4402,7 @@ export default {
     "meta": {
       "props": [
         {
-          "name": "video",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string | undefined",
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          },
-          "default": "\"\""
-        },
-        {
-          "name": "cta",
+          "name": "secondary",
           "global": false,
           "description": "",
           "tags": [],
@@ -4412,7 +4425,24 @@ export default {
           "default": "[]"
         },
         {
-          "name": "secondary",
+          "name": "video",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string | undefined",
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
+            ]
+          },
+          "default": "\"\""
+        },
+        {
+          "name": "cta",
           "global": false,
           "description": "",
           "tags": [],
@@ -4463,13 +4493,7 @@ export default {
       "events": [],
       "exposed": [
         {
-          "name": "video",
-          "type": "string",
-          "description": "",
-          "schema": "string"
-        },
-        {
-          "name": "cta",
+          "name": "secondary",
           "type": "string[]",
           "description": "",
           "schema": {
@@ -4481,7 +4505,13 @@ export default {
           }
         },
         {
-          "name": "secondary",
+          "name": "video",
+          "type": "string",
+          "description": "",
+          "schema": "string"
+        },
+        {
+          "name": "cta",
           "type": "string[]",
           "description": "",
           "schema": {
