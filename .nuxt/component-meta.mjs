@@ -3092,7 +3092,6 @@ export default {
               "\"object\"",
               "\"style\"",
               "\"map\"",
-              "\"title\"",
               "\"article\"",
               "\"textarea\"",
               "\"html\"",
@@ -3193,6 +3192,7 @@ export default {
               "\"th\"",
               "\"thead\"",
               "\"time\"",
+              "\"title\"",
               "\"tr\"",
               "\"track\"",
               "\"u\"",
@@ -3262,7 +3262,6 @@ export default {
               "\"object\"",
               "\"style\"",
               "\"map\"",
-              "\"title\"",
               "\"article\"",
               "\"textarea\"",
               "\"html\"",
@@ -3363,6 +3362,7 @@ export default {
               "\"th\"",
               "\"thead\"",
               "\"time\"",
+              "\"title\"",
               "\"tr\"",
               "\"track\"",
               "\"u\"",
@@ -5798,6 +5798,23 @@ export default {
     "meta": {
       "props": [
         {
+          "name": "title",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string | undefined",
+          "schema": {
+            "kind": "enum",
+            "type": "string | undefined",
+            "schema": [
+              "undefined",
+              "string"
+            ]
+          },
+          "default": "\"Welcome to Nuxt!\""
+        },
+        {
           "name": "appName",
           "global": false,
           "description": "",
@@ -5830,23 +5847,6 @@ export default {
             ]
           },
           "default": "\"\""
-        },
-        {
-          "name": "title",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string | undefined",
-          "schema": {
-            "kind": "enum",
-            "type": "string | undefined",
-            "schema": [
-              "undefined",
-              "string"
-            ]
-          },
-          "default": "\"Welcome to Nuxt!\""
         },
         {
           "name": "readDocs",
